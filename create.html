@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Quiz</title>
+    <link rel="stylesheet" href="create_style.css">
+    <link rel="stylesheet" href="home_style.css">
+    <script src="create_script.js"></script>
+</head>
+<body>
+    <div class="top">
+        <h1 id="Heading_Create">Create a Quiz</h1>
+    </div>
+    <div class="main">
+        <fieldset>
+            <legend>Create a question</legend>
+            <div class="Question_section">
+                <label for="question">Question:</label><br>
+                <textarea name="question" id="iquestion" class="options" cols="95" rows="5"></textarea>
+            </div>
+
+            <div class="Answers_section">
+                <span class="options_span">
+                    <label for="op1">Option 1:</label>
+                    <input type="text" name="op1" id="op1" class="options">
+                    <label for="op2">Option 2:</label>
+                    <input type="text" name="op2" id="op2" class="options">
+                </span>
+                <span class="options_span">
+                    <label for="op3">Option 3:</label>
+                    <input type="text" name="op3" id="op3" class="options">
+                    <label for="op4">Option 4:</label>
+                    <input type="text" name="op4" id="op4" class="options">
+                </span>
+            </div>
+            <span class="options_span">
+                <label for="ans">Correct Option:</label>
+                <input type="text" name="ans" class="options" id="ans" placeholder="option number...">
+                <button type="button" class="sbuttons" onclick='newElement()'>Create</button>
+            </span>
+            
+        </fieldset>
+    </div>
+    <div class="Created_Question">
+        <p id="bottom_heading">Created Question</p>
+        <ol id="Questions">
+        </ol>
+        <form action="">
+            <input type="submit" value="Submit" class="sbuttons" id="submit_button">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    padding: 15px;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+
+#Heading_Create {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    position: relative;
+}
+
+.Created_Question {
+    padding: 20px;
+}
+
+#bottom_heading {
+    text-align: center;
+    font-size: large;
+    margin: 0px;
+}
+
+.Question_section {
+    position: relative;
+}
+
+.Answers_section {
+    position: relative;
+}
+
+div button {
+    width: 100px;
+}
+
+.options {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color:  rgb(111, 22, 255);
+    margin: 10px 0px;
+}
+
+.options:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.options_span {
+    display: block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#submit_button {
+    float: right;
+    margin-right: 40px;
+}
